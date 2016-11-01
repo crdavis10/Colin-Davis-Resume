@@ -1,0 +1,185 @@
+.span{
+
+ 	float: left;
+	font-family: sans-serif;
+	color: #003366;
+
+}
+.span1 {
+
+    float: left;
+    font-size: 15px;
+	font-family: sans-serif;
+	color: #003366;
+}
+
+.span2 {
+
+    float:right;
+    text-align: right;
+    font-family: sans-serif;
+	color: #003366;
+	font-size: 15px;
+}
+
+.span3 {
+
+	padding-left: 50px;
+	color: #2f2f30;
+	font-size: 18px;
+}
+
+.span-padding{
+
+	padding-left: 50px;
+	color: #009900;
+
+}
+
+.pic{
+
+	float:right;
+    text-align: right;
+}
+
+body {
+
+	max-width: 1240px;
+	margin:50px;
+	padding-bottom:-50px;
+	background-color: #FCFCFC;
+
+}
+
+@media only screen and (max-width: 1080px) {
+    body {
+        background-color: #C3C0C0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+		margin: 40px auto;
+		padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+		font-family: times;
+    }
+}
+
+.span-spacing { 
+
+    word-spacing: 30px;
+}
+
+.span-spacing2 {
+
+	word-spacing: 47px;
+
+}
+
+.thick-italic {
+
+font-weight: bold;
+font-style: italic;
+
+}
+
+.thick {
+
+font-weight: bold;
+
+}
+
+h1 {
+
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #003366;
+}
+
+h2{
+
+	font-size: 20px;
+	color: #003366;
+	font-family: sans-serif;
+}
+
+h3 {
+
+	color: black;
+	font-size: 18px;
+}
+
+h4 {
+	color: #2f2f30;
+	font-size: 18px;
+
+}
+
+.hr {
+
+	color: #0066ff;
+	background-color: #0066ff;
+	height: 1px;
+	width: 292px;
+	display: inline-block;
+}
+
+.hr2 {
+
+	color: #cc0000;
+	background-color: #cc0000;
+	height: 1px;
+	width: 292px;
+	display: inline-block;
+}
+
+.hr3 {
+
+	color: #FFCC00;
+	background-color: #FFCC00;
+	height: 1px;
+	width: 292px;
+	display: inline-block;
+}
+
+.hr4 {
+
+	color: #009900;
+	background-color: #009900;
+	height: 1px;
+	width: 292px;
+	display: inline-block;
+}
+
+a:link {
+    color: #009900;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #cc0000;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #cc0000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.list {
+	display: list-item; 
+	list-style-type: circle;
+	list-style-position: inside;
+	padding-left: 70px;
+}
